@@ -1,0 +1,123 @@
+.bodied{
+    background-color: rgba(38,83,107);
+    color: white;
+    padding-left: 80px;
+    margin-top: -50px;
+}
+.specially{
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 60px;
+    color: rgba(38,83,107);
+    margin-left: 60px;
+}
+.packed{
+    padding-bottom:40px;
+    background: linear-gradient(115.57deg,#156b8a 61.55%,#6bad67 88.62%,#bfed45 105.08%);
+}
+.joined{
+    width: 250px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.arrowside{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    width: 100px;
+}
+.sendesc{
+    color: rgb(212, 78, 78);
+}
+.joined1{
+    width: 250px;
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.binded{
+    width: 70%;
+    box-shadow: 0 3px 10px rgb(0, 0, 0,  0.267);
+    margin: 40px auto;
+    color: rgb(47, 99, 119);
+}
+.veried{
+    /* margin: 20px auto; */
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 55px;
+    color: rgb(47, 99, 119);
+}
+.veried1{
+    display: flex;
+    justify-content: center;
+    color: rgb(47, 99, 119);
+}
+.veried2{
+    width: 90%;
+    margin: 30px auto;
+    color: rgb(47, 99, 119);
+}
+li{
+    list-style: none;
+}
+@media (max-width: 600px){
+.sec4{
+    padding-right: 40px !important;
+}
+.sec41{
+    padding-left: 65px !important;
+}
+.binded{
+    width: 96%;
+    margin: 40px 2%;
+}
+}
+@media (max-width: 900px){
+    .sec4{
+        padding-right: 40px !important;
+    }
+    .resize{
+        height: 19px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .resize2{
+        height: 30px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .resize3{
+        height: 19px;
+        margin-top: 10px;
+        text-align: center;
+        padding-left: 40px !important;
+    }
+    .sec5logo{
+        height: 25px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .sec5logo1{
+        height: 25px;
+        margin-left: 70px !important;
+        margin-top: 10px;
+    }
+    .sec5logo2{
+        height: 25px;
+        margin-left: 90px !important;
+        margin-top: 10px;
+    }
+    .sec41{
+        padding-left: 65px !important;
+    }
+    }

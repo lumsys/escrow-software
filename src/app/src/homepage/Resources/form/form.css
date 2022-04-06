@@ -1,0 +1,72 @@
+.formRight{
+    padding: 30px;
+    
+    height: 550px;
+    border-radius: 5px;
+    box-shadow: -19px 22px 29px -20px rgba(64,58,58,0.75);
+    -webkit-box-shadow: -19px 22px 29px -20px rgba(64,58,58,0.75);
+    -moz-box-shadow: -19px 22px 29px -20px rgba(64,58,58,0.75);
+}
+
+.formText{
+    font-size: 13px;    
+    color: #97999c;
+}
+.pText{
+    margin-left: 6px;
+}
+.name{
+    display: flex;
+    flex-flow: row wrap;
+}
+.fmz6{
+    flex: 6
+}
+span{
+    display: inline-block;
+}
+.formRight button {
+    padding: 10px 20px;    
+    border: 1px solid #ddd;
+    
+}
+form > button{
+    color: dodgerblue;
+    border-radius: 6px;
+    margin-top: 30px;
+
+}
+form > button:hover{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+
+}
+.headingColor{
+    color: #156B8A;
+    
+}
+.textLabel{
+    margin-bottom: 2px;
+    margin-top: 7px;
+}
+.formRight > input:focus {
+    border: 1px solid #de1f12;
+}
+@media (max-width: 420px){
+    .forminput{
+        width: 300px;
+    }
+    .forminput1{
+        width: 300px;
+    }
+    .formRight{
+        height: 650px;
+    }
+    .compArticle > h3 {
+        margin-top: 90px !important;
+    }
+    .formRight button {
+        margin-top: 20px;
+    }
+}

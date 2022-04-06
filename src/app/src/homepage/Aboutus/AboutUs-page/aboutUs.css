@@ -1,0 +1,75 @@
+body{
+    /* font-family: ; */
+    color: #156B8A;
+    
+}
+/* About head section */
+.about-head{
+    background-color: #7ec7e2;
+    height: 420px !important; 
+}
+
+
+.section-2{
+    background-color: #e3ebee !important;
+
+}
+/* Founders section */
+
+.member-img{
+    margin-left: 120px !important;
+}
+
+.escrow-btn{
+    background-color: rgb(151, 218, 89) !important;
+    color:#0a5a90 !important;
+}
+.escrow-link{
+    background-color: #0f4c68;
+    color: #0a5a90;
+    border-radius: 20px !important;
+    margin-left: 70px !important;
+    margin-right: 60px !important;
+}
+a{
+    color: #156B8A !important;
+}
+
+.about-head-info{
+    width: 75%;
+    margin: auto;
+    margin-bottom: 10px !important;
+
+}
+
+.top-img{
+    width: 100%;
+    margin-top: -150px;
+}
+.about-h1{
+    position: relative;
+    top: 8rem;
+    
+
+}
+.arrowLink{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    z-index: 5;
+    margin-top: 100px;
+    margin-left: -35px;
+    background-color: #e3ebee !important;
+    color: #156B8A;
+    padding: 20px;
+
+    
+
+
+}
+.arrowLink:hover{
+    background-color: #064670;
+    color: #4CAF80;
+    transition: 9% ease-in-out;
+
+}

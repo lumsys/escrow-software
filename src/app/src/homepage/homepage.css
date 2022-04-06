@@ -1,0 +1,177 @@
+.section1{
+    color: white;
+    background: linear-gradient(115.57deg,#156b8a 61.55%,#6bad67 88.62%,#bfed45 105.08%);
+    width: 100%;
+}
+.modern{
+    font-size: 50px;
+    margin-top: 180px;
+}
+.beside{
+    background-color: white;
+    color: rgb(21,107,138);
+    box-shadow: 0 3px 10px rgb(0, 0, 0,  0.267);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.logopay{
+    height: 50px;
+}
+.col-wh{
+    color: white !important;
+}
+.btn{
+    background-color: transparent !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    border-color: white !important;
+}
+.btn:hover{
+    background-color: red !important;
+    
+}
+select{
+    border: none;
+    width: 300px;
+    margin-right: 20px;
+}
+label{
+    margin-right: 60px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.select1{
+    width: 70px;
+    padding-bottom: 20px;
+}
+.hori{
+    width: 80px;
+    color: rgb(21,107,138);
+    height: 3px;
+    margin-top: 10px;
+}
+.wordz{
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.beside1{
+    background-color: white;
+    color: rgb(21,107,138);
+    box-shadow: 0 3px 10px rgb(0, 0, 0,  0.267);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.image1{
+    margin-top: -15px;
+    margin-left: 60px;
+}
+Link{
+    color: white !important;
+}
+.beside2{
+    background-color: white;
+    color: rgb(21,107,138);
+    box-shadow: 0 3px 10px rgb(0, 0, 0,  0.267);
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+.supported{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+input{
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+}
+hr{
+    margin: 0;
+}
+.Started{
+    border: none;
+    width: 80%;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 55px;
+    padding: 10px 0;
+    margin-bottom: 50px;
+    color: white;
+    background: linear-gradient(263.11deg,#1fa7d9 .58%,#b2f000 144.39%);
+}
+.container{
+    max-width: 100% !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+@media (max-width: 420px){
+    .writtenwords{
+        padding-left: 10px !important;
+    }
+    .section1{
+        width: 414px;
+    }
+    .modern{
+        margin-top: 70px !important;
+    }
+    .writtenwords1{
+        width: 90% !important;
+        margin: 20px auto !important
+    }
+    .input3{
+        width: 60px !important;
+    }
+    .input2{
+        width: 90px !important;
+    }
+    label{
+        margin-right: 20px;
+    }
+    .logopay{
+        height: 50px;
+        width:185px;
+    }
+}
+@media (max-width: 900px){
+    .writtenwords{
+        padding-left: 10px !important;
+    }
+    .writtenwords1{
+        width: 90% !important;
+        margin: 20px auto !important
+    }
+    .input3{
+        width: 50px !important;
+        background-color: rgba(241, 166, 164, 0.8);
+        border: none;
+    }
+    .input2{
+        width: 60px !important;
+    }
+    label{
+        margin-right: 50px;
+    }
+    .modern{
+        margin-top: 100px;
+    }
+}
+@media (min-width: 900px) and (max-width: 1200px){
+    .input2{
+        width: 140px !important;
+    }
+    .input3{
+        width: 140px !important;
+        background-color: rgba(241, 166, 164, 0.8);
+        border: none;
+    }
+}

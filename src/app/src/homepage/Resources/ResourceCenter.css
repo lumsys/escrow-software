@@ -1,0 +1,108 @@
+.body{
+    background-color: lightblue;
+}
+.topSection{
+    background-image: url('./arrow.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    width:100% ;
+    position: relative;
+}
+.topSection > h1{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: white;
+    font-size: 40px;
+}
+.firstDiv{
+    position: absolute;
+    background-color:#1e4878;
+    color: white;
+    top: 50%;
+    margin: 0 0 0 10%;
+    border-radius:10px;    
+    transform: translate(-35px, 0);
+    height: 250px;
+    width: 80%;
+    box-shadow: -4px 6px 6px -4px rgba(161,153,153,0.72);
+    -webkit-box-shadow: -4px 6px 6px -4px rgba(161,153,153,0.72);
+    -moz-box-shadow: -4px 6px 6px -4px rgba(161,153,153,0.72);
+}
+.containerFluid{
+    margin-top: 180px !important;
+    background-color:white;
+    width: 80%;
+    margin-left: 10% !important;
+}
+
+.left{
+    /* margin-left: 100px; */
+    /* margin-right: 15px;
+    height: 550px; */
+    border-radius: 5px;
+    box-shadow: -19px 22px 29px -20px rgba(64,58,58,0.75);
+    -webkit-box-shadow: -19px 22px 29px -20px rgba(64,58,58,0.75);
+    -moz-box-shadow: -19px 22px 29px -20px rgba(64,58,58,0.75);
+}
+.left1{
+    border-radius: 5px !important;
+    padding: 0% !important;
+    box-shadow: -19px 22px 29px -20px rgba(64,58,58,0.75);
+    -webkit-box-shadow: -19px 22px 29px -20px rgba(64,58,58,0.75);
+    -moz-box-shadow: -19px 22px 29px -20px rgba(64,58,58,0.75);
+}
+.right{
+    /* margin-right: 100px; */
+    margin-left: 15px;
+}
+.leftImg{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+}
+.left1 > a{
+    text-decoration: none;
+    color: inherit;
+}
+.leftText{
+    margin: 30px 20px 0 20px;
+}
+.leftText > h2{
+    margin-top: 0;
+}
+.leftText > p{
+    margin-top: 0;
+    margin-bottom: 6px;
+}
+.year{
+    margin-left: 20px;
+    margin-right: 9px;
+    /* margin-bottom: 6px; */
+}
+
+.year, .minutes, .textColor{
+    font-size: 14x;
+    color: #97999c;
+
+}
+.headingColor{
+    color: #156B8A;
+}
+.sectionArticle{
+    margin: 30px 0px 0 0px;
+}
+@media (max-width: 1000px){
+    .firstDiv{
+        margin: -35% 0 0 15%;
+    }
+    
+}
+@media (max-width: 420px){
+    .firstDiv{
+        margin: -30% 0 0 20%;
+    }
+    
+}
